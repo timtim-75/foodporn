@@ -1,0 +1,19 @@
+{
+  "name": "foodporn",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/nodemon/bin/nodemon.js app/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.13.3",
+    "morgan": "~1.6.1",
+    "ejs": "~2.3.4",
+    "nodemon": "~1.8.1",
+    "mongoose": "~4.3.0"
+  }
+}
